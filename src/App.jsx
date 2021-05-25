@@ -1,15 +1,18 @@
 import './App.css';
 import video from './assets/login.mp4';
+import leagueIcon from './assets/league-icon.jpg';
 
 function App() {
   return (
     <section className="main">
-      <aside className="left-container">
-        <div>
-          <span>logo</span>
+      <aside className="left-content">
+        <div className="form-auth">
+          <img src={leagueIcon} alt="League Of Legends icon" />
           <span>Fazer login</span>
-          <input type="text" placeholder="NOME DE USUÁRIO" />
-          <input type="password" placeholder="SENHA" />
+          <section className="login">
+            <input type="text" placeholder="NOME DE USUÁRIO" />
+            <input type="password" placeholder="SENHA" />
+          </section>
         </div>
       </aside>
       <section className="">
