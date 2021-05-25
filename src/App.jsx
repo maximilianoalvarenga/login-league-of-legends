@@ -12,10 +12,10 @@ function App() {
           <input type="password" placeholder="SENHA" />
         </div>
       </aside>
-      <section className="right-container">
-      <video autoPlay={true} loop={true} >
-        <source src={ video } type="video/mp4" className="video-background"/>
-      </video>
+      <section className="">
+        <video autoPlay={true} loop={true} className="video-background">
+          <source src={ video } type="video/mp4" />
+        </video>
       </section>
     </section>
   );

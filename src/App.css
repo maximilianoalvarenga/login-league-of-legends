@@ -4,10 +4,11 @@
 }
 
 .main {
-  background-color: blue;
+  background-color: green;
   width: 100vw;
   height: 100vh;
   display: flex;
+  justify-content: space-between;
 }
 
 .left-container {
@@ -17,14 +18,21 @@
   display: flex;
   flex-direction: row;
 }
-.right-container {
-  width: 70vw;
-  height: 100%;
-  background: slateblue;
-}
 
 .login{
   margin: 0;
   width: 100%;
   height: 100%;
+}
+
+.right-content {
+  position: fixed;
+  width: 70vw;
+  height: 100%;
+  background: blue;
+}
+.video-background {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
 }
