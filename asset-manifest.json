@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/login-league-of-legends/static/css/main.fb8127e4.chunk.css",
-    "main.js": "/login-league-of-legends/static/js/main.edf7b77e.chunk.js",
-    "main.js.map": "/login-league-of-legends/static/js/main.edf7b77e.chunk.js.map",
-    "runtime-main.js": "/login-league-of-legends/static/js/runtime-main.b6afc246.js",
-    "runtime-main.js.map": "/login-league-of-legends/static/js/runtime-main.b6afc246.js.map",
-    "static/js/2.9f77ed22.chunk.js": "/login-league-of-legends/static/js/2.9f77ed22.chunk.js",
-    "static/js/2.9f77ed22.chunk.js.map": "/login-league-of-legends/static/js/2.9f77ed22.chunk.js.map",
+    "main.css": "/login-league-of-legends/static/css/main.b26dc72c.chunk.css",
+    "main.js": "/login-league-of-legends/static/js/main.b279eb2d.chunk.js",
+    "main.js.map": "/login-league-of-legends/static/js/main.b279eb2d.chunk.js.map",
+    "runtime-main.js": "/login-league-of-legends/static/js/runtime-main.257cd261.js",
+    "runtime-main.js.map": "/login-league-of-legends/static/js/runtime-main.257cd261.js.map",
+    "static/js/2.006083dc.chunk.js": "/login-league-of-legends/static/js/2.006083dc.chunk.js",
+    "static/js/2.006083dc.chunk.js.map": "/login-league-of-legends/static/js/2.006083dc.chunk.js.map",
     "index.html": "/login-league-of-legends/index.html",
-    "static/css/main.fb8127e4.chunk.css.map": "/login-league-of-legends/static/css/main.fb8127e4.chunk.css.map",
-    "static/js/2.9f77ed22.chunk.js.LICENSE.txt": "/login-league-of-legends/static/js/2.9f77ed22.chunk.js.LICENSE.txt",
+    "static/css/main.b26dc72c.chunk.css.map": "/login-league-of-legends/static/css/main.b26dc72c.chunk.css.map",
+    "static/js/2.006083dc.chunk.js.LICENSE.txt": "/login-league-of-legends/static/js/2.006083dc.chunk.js.LICENSE.txt",
     "static/media/login.a5a757ce.mp4": "/login-league-of-legends/static/media/login.a5a757ce.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.b6afc246.js",
-    "static/js/2.9f77ed22.chunk.js",
-    "static/css/main.fb8127e4.chunk.css",
-    "static/js/main.edf7b77e.chunk.js"
+    "static/js/runtime-main.257cd261.js",
+    "static/js/2.006083dc.chunk.js",
+    "static/css/main.b26dc72c.chunk.css",
+    "static/js/main.b279eb2d.chunk.js"
   ]
 }
