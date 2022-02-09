@@ -34,7 +34,7 @@ function App() {
         </div>
       </aside>
       <section className="">
-        <video autoPlay={true} loop={true} className="video-background">
+        <video autoPlay={true} loop={true} className="video-background" muted={true}>
           <source src={ video } type="video/mp4" />
         </video>
       </section>
