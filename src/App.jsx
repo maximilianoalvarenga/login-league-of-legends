@@ -10,7 +10,7 @@ import appleLogin from './assets/apple-icon.png';
 
 function App() {
   const [load, setLoad] = useState(false);
-  const delay = 1;
+  const delay = 11;
 
   useEffect(() => {
     let timer = setTimeout(() => setLoad(true), delay * 1000);
