@@ -26,7 +26,7 @@ function App() {
       <aside className="left-content">
         <div className="form-auth">
           <img src={leagueIcon} alt="League Of Legends icon" className='icon-riot'/>
-          <span>Fazer login</span>
+          <span className='header-login'>Fazer login</span>
           <section className="login">
             <div>
               <input type="text" placeholder="NOME DE USUÁRIO" />
