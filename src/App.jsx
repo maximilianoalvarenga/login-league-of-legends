@@ -68,10 +68,12 @@ function App() {
         </video>
       </section>
     </section> ) : (
-        <video autoPlay={true} loop={true} className="video-background" muted={true}>
+      <section className='main2'>
+        <video autoPlay={true} loop={true} className="video-background-login" muted={true}>
           <source src={ videoLoad } type="video/mp4" />
         </video>
-        )
+      </section>
+    )
   );
 }
 
