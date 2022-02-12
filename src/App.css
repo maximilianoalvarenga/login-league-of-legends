@@ -13,40 +13,49 @@
 }
 
 .left-content {
-  width: 39vw;
+  width: 34.3vw;
   height: 100%;
+  background-color: white;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .form-auth {
-  background-color: white;
   width: 18vw;
-  margin: 0 auto;
+  height: 90vh;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.form-auth img {
+.form-auth .icon-riot {
+  margin: 35% auto 12% auto;
   width: 45px;
   height: 45px;
 }
 
 .form-auth span {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 900;
 }
 
 .login {
   width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 input[type=password], input[type=text] {
-  background: rgb(233, 233, 233);
+  background: #EDEDED;
   padding: 10px;
-  width: 100%;
-  border-radius: 2px;
+  width: 240px;
+  height: 40px;
+  border-radius: 4px;
   box-sizing:border-box;
   border: 1px solid rgb(233, 233, 233);
   
@@ -72,6 +81,7 @@ input[type=password], input[type=text] {
 }
 
 .social {
+  width: 240px;
   display: flex;
   justify-content: space-between;
 }
@@ -82,8 +92,8 @@ input[type=password], input[type=text] {
 }
 
 .social div{
-  height: 25px;
-  width: 80px;
+  height: 27px;
+  width: 75px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -171,4 +181,66 @@ label input {
   border: solid white;
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
+}
+
+/**********************************************/
+.box-btn-login {
+  background-color: #D13639;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.btn-login {
+  height:30px;
+  width: 40px;
+  color:white;
+}
+
+.box-btn-login:hover {
+  background-color: #BC252A;
+}
+
+/*********************************/
+
+#footer-right {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 45px;
+}
+
+.user-help {
+  color: #B2B2C2;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  font-size: 9px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.user-help span:hover {
+  color: black;
+}
+
+.version-app {
+  color: #B2B2C2;
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 9px;
+  margin: 0px 35px 0px -55px;
+  cursor: pointer;
+}
+
+.version-app:hover {
+  color: black;
 }
