@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/login-league-of-legends/static/css/main.3d49fe13.chunk.css",
-    "main.js": "/login-league-of-legends/static/js/main.fdde78e6.chunk.js",
-    "main.js.map": "/login-league-of-legends/static/js/main.fdde78e6.chunk.js.map",
+    "main.css": "/login-league-of-legends/static/css/main.179c505a.chunk.css",
+    "main.js": "/login-league-of-legends/static/js/main.188df824.chunk.js",
+    "main.js.map": "/login-league-of-legends/static/js/main.188df824.chunk.js.map",
     "runtime-main.js": "/login-league-of-legends/static/js/runtime-main.b6afc246.js",
     "runtime-main.js.map": "/login-league-of-legends/static/js/runtime-main.b6afc246.js.map",
     "static/js/2.64304724.chunk.js": "/login-league-of-legends/static/js/2.64304724.chunk.js",
     "static/js/2.64304724.chunk.js.map": "/login-league-of-legends/static/js/2.64304724.chunk.js.map",
     "index.html": "/login-league-of-legends/index.html",
-    "static/css/main.3d49fe13.chunk.css.map": "/login-league-of-legends/static/css/main.3d49fe13.chunk.css.map",
+    "static/css/main.179c505a.chunk.css.map": "/login-league-of-legends/static/css/main.179c505a.chunk.css.map",
     "static/js/2.64304724.chunk.js.LICENSE.txt": "/login-league-of-legends/static/js/2.64304724.chunk.js.LICENSE.txt",
     "static/media/apple-icon.93cf1000.png": "/login-league-of-legends/static/media/apple-icon.93cf1000.png",
     "static/media/facebook-icon.e93ad921.png": "/login-league-of-legends/static/media/facebook-icon.e93ad921.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.b6afc246.js",
     "static/js/2.64304724.chunk.js",
-    "static/css/main.3d49fe13.chunk.css",
-    "static/js/main.fdde78e6.chunk.js"
+    "static/css/main.179c505a.chunk.css",
+    "static/js/main.188df824.chunk.js"
   ]
 }
