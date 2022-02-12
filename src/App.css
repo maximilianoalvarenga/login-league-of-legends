@@ -12,6 +12,17 @@
   justify-content: space-between;
 }
 
+.main2 {
+  width: 100%;
+  height: 100vh;
+}
+
+.video-background-login{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
 .left-content {
   width: 34.3vw;
   min-width: 275px;
@@ -259,16 +270,6 @@ label input {
 
   .video-background {
     display: none;
-  }
-
-  .main2 {
-    width: 100%;
-    height: 100vh;
-  }
-  .video-background-login{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
   }
 
   .left-content {
