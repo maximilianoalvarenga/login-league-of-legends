@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { AiOutlineArrowRight } from "react-icons/ai";
+import { AiOutlineArrowRight, AiOutlineSound, AiOutlineExclamation } from "react-icons/ai";
 import './App.css';
 import video from './assets/login.mp4';
 import videoLoad from './assets/riotLoad.mp4';
@@ -10,6 +10,8 @@ import appleLogin from './assets/apple-icon.png';
 
 function App() {
   const [load, setLoad] = useState(false);
+  const [muted, setMuted] = useState(true);
+  
   const delay = 11;
 
   useEffect(() => {
@@ -62,8 +64,18 @@ function App() {
             </div>
           </section>
       </aside>
-      <section className="">
-        <video autoPlay={true} loop={true} className="video-background" muted={true}>
+      <section className="section-right">
+        <div className='header-section-video'>
+          <button className='btn-information-login'>
+            <AiOutlineExclamation className='icon-information'/>
+          </button>
+        </div>
+        <div className='footer-section-video'>
+          <button onClick={() => setMuted(!muted)} className='btn-information-login'>
+            teste2
+          </button>
+        </div>
+        <video autoPlay={true} loop={true} className="video-background" muted={ muted }>
           <source src={ video } type="video/mp4" />
         </video>
       </section>
