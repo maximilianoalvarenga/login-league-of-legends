@@ -201,16 +201,26 @@ label input {
 }
 
 /**********************************************/
-.box-btn-login {
+.box-btn-login, .box-btn-login-disabled {
   background-color: #D13639;
   width: 60px;
   height: 60px;
   display: flex;
   justify-content: center;
+  border: none;
   align-items: center;
   border-radius: 15px;
   cursor: pointer;
   margin-bottom: 10px;
+}
+
+.box-btn-login-disabled {
+  background-color: lightgray;
+  cursor: default;
+}
+
+.box-btn-login-disabled:hover {
+  background-color: lightgray;
 }
 
 .btn-login {
@@ -302,10 +312,10 @@ label input {
   position: absolute;
   width: 72.7vw;
   background-color: transparent;
-  height: 50%;
+  height: 98%;
   z-index: 1;
 }
-.btn-information-login {
+.btn-information-login, .btn-sound {
   margin: 30px 0px 0px 40px;
   width: 35px;
   height: 35px;
@@ -318,9 +328,13 @@ label input {
   background-color: #D950E5;
 }
 
+.btn-sound {
+  position: absolute;
+  bottom: 25px;
+}
 .icon-information {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   transform: rotate(-45deg);
 }
 

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { AiOutlineArrowRight, AiOutlineSound, AiOutlineExclamation } from "react-icons/ai";
+import { AiOutlineArrowRight, AiOutlineExclamation } from "react-icons/ai";
+import { BsFillVolumeMuteFill, BsFillVolumeUpFill } from "react-icons/bs";
 import './App.css';
 import video from './assets/login.mp4';
 import videoLoad from './assets/riotLoad.mp4';
@@ -11,8 +12,15 @@ import appleLogin from './assets/apple-icon.png';
 function App() {
   const [load, setLoad] = useState(false);
   const [muted, setMuted] = useState(true);
-  
+  const [userData, setUserData] = useState({
+    username: '',
+    password: ''
+  });
   const delay = 11;
+
+  const handleChange = (e) => e.target.type === 'text' ? setUserData((old) => (
+    {...old, username: e.target.value})) : setUserData((old) => (
+    {...old, password: e.target.value}));
 
   useEffect(() => {
     let timer = setTimeout(() => setLoad(true), delay * 1000);
@@ -31,8 +39,8 @@ function App() {
           <span className='header-login'>Fazer login</span>
           <section className="login">
             <div>
-              <input type="text" placeholder="NOME DE USUÁRIO" />
-              <input type="password" placeholder="SENHA" />
+              <input type="text" placeholder="NOME DE USUÁRIO" value={userData.username} onChange={ handleChange}/>
+              <input type="password" placeholder="SENHA" value={userData.password } onChange={ handleChange}/>
               <section className='social'>
                 <div id='facebook'>
                   <img src={facebookLogin} alt="Facebook icon" className='icon-social'/>
@@ -49,9 +57,15 @@ function App() {
                 <span class="mark"></span>
               </label>
             </div>
-            <div className='box-btn-login'>
-              <AiOutlineArrowRight className='btn-login' />
-            </div>
+            { (userData.username !== '' && userData.password !== '') ? (
+              <button type="button" className='box-btn-login'>
+                <AiOutlineArrowRight className='btn-login' />
+              </button>
+            ) : (
+              <button type="button" className='box-btn-login-disabled'>
+                <AiOutlineArrowRight className='btn-login' />
+              </button>
+            )}
           </section>
         </div>
         <section id='footer-right'>
@@ -71,8 +85,8 @@ function App() {
           </button>
         </div>
         <div className='footer-section-video'>
-          <button onClick={() => setMuted(!muted)} className='btn-information-login'>
-            teste2
+          <button onClick={() => setMuted(!muted)} className='btn-sound'>
+            { !muted ? <BsFillVolumeMuteFill className='icon-information'/> : <BsFillVolumeUpFill className='icon-information'/> }
           </button>
         </div>
         <video autoPlay={true} loop={true} className="video-background" muted={ muted }>
