@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/login-league-of-legends/static/css/main.15c437ba.css",
-    "main.js": "/login-league-of-legends/static/js/main.23af96f0.js",
-    "static/media/login.mp4": "/login-league-of-legends/static/media/login.a5a757ce8ed7ac94cf4d.mp4",
-    "static/media/riotLoad.mp4": "/login-league-of-legends/static/media/riotLoad.8842b7baf53bec3aea13.mp4",
-    "static/media/google-icon.png": "/login-league-of-legends/static/media/google-icon.428f4c593b2d5c300dd1.png",
-    "static/media/facebook-icon.png": "/login-league-of-legends/static/media/facebook-icon.e93ad9212ce4e6c867cc.png",
-    "static/media/apple-icon.png": "/login-league-of-legends/static/media/apple-icon.93cf1000201447a708b9.png",
-    "index.html": "/login-league-of-legends/index.html",
-    "main.15c437ba.css.map": "/login-league-of-legends/static/css/main.15c437ba.css.map",
-    "main.23af96f0.js.map": "/login-league-of-legends/static/js/main.23af96f0.js.map"
+    "main.css": "/login-riot-games/static/css/main.15c437ba.css",
+    "main.js": "/login-riot-games/static/js/main.7d2053c7.js",
+    "static/media/login.mp4": "/login-riot-games/static/media/login.a5a757ce8ed7ac94cf4d.mp4",
+    "static/media/riotLoad.mp4": "/login-riot-games/static/media/riotLoad.8842b7baf53bec3aea13.mp4",
+    "static/media/google-icon.png": "/login-riot-games/static/media/google-icon.428f4c593b2d5c300dd1.png",
+    "static/media/facebook-icon.png": "/login-riot-games/static/media/facebook-icon.e93ad9212ce4e6c867cc.png",
+    "static/media/apple-icon.png": "/login-riot-games/static/media/apple-icon.93cf1000201447a708b9.png",
+    "index.html": "/login-riot-games/index.html",
+    "main.15c437ba.css.map": "/login-riot-games/static/css/main.15c437ba.css.map",
+    "main.7d2053c7.js.map": "/login-riot-games/static/js/main.7d2053c7.js.map"
   },
   "entrypoints": [
     "static/css/main.15c437ba.css",
-    "static/js/main.23af96f0.js"
+    "static/js/main.7d2053c7.js"
   ]
 }
